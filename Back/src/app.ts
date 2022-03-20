@@ -7,7 +7,7 @@ import { connectDB } from "./mongo";
 
 
 
- const run = async () => {
+ const run = async () => {  
 
   const app = express();
   const cors = require('cors');
